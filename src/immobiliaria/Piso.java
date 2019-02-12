@@ -10,7 +10,7 @@ package immobiliaria;
  * @author profesor
  */
 public class Piso extends Vivienda {
-    // atributos de piso
+    // atributos 
     private int altura;
     private boolean ascensor;
 

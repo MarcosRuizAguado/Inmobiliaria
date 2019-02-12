@@ -18,6 +18,7 @@ public class Propietarios {
         this.dni = dni;
         this.nombre = nombre;
     }
+    
 
     public String getDni() {
         return dni;
@@ -39,6 +40,7 @@ public class Propietarios {
     public String toString() {
         return "Propietarios{" + "dni=" + dni + ", nombre=" + nombre + '}';
     }
+    
     
     
     
