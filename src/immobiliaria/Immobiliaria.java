@@ -29,7 +29,6 @@ public class Immobiliaria {
             miListaP.anyadirPiso(piso);
         }
         
-        System.out.println("Lista de pisos: ");
         miListaP.mostrarPisos();
         
         direc = "Desconocida5";
@@ -38,7 +37,7 @@ public class Immobiliaria {
         if (piso!=null){
             System.out.println(piso.toString()+" ENCONTRADO");
         }else{
-            System.out.println("No hemos podido encontrar el piso");
+            System.out.println("No encontrado");
         }
         
     }
